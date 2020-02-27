@@ -14,7 +14,7 @@ setup(
     author='Jithin VG',
     author_email='jithinvg@accubits.com, aj@accubits.com',
     url='https://github.com/accubits/currency-converter-python.git',
-    download_url='https://github.com/accubits/currency-converter-python/archive/0.2.tar.gz',
+    download_url='https://github.com/accubits/currency-converter-python/archive/0.3.tar.gz',
     keywords=['currency', 'forex-converter', 'currency converter', ' converter currency', 'forex'],
     install_requires=[
         'requests'

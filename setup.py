@@ -8,7 +8,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='forex-converter',
     packages=['forex-converter'],
-    version='0.2',
+    version='0.3',
     license='MIT',
     description='A simple python package for currency conversion',
     author='Jithin VG',

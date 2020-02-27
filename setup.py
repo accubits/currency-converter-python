@@ -9,9 +9,9 @@ setup(
     author='Jithin VG',
     author_email='jithinvg@accubits.com, aj@accubits.com',  # Type in your E-Mail
     url='https://github.com/accubits/currency-converter-python.git',  # Provide either the link to your github or to your website
-    download_url='https://github.com/user/reponame/archive/v_01.tar.gz',  # I explain this later on
+    download_url='https://github.com/accubits/currency-converter-python/archive/0.1.tar.gz',  # I explain this later on
     keywords=['currency', 'currency-converter', 'currency converter', ' converter currency'],  # Keywords that define your package best
-    install_requires=[  # I get to this in a second
+    install_requires=[
         'requests'
     ],
     classifiers=[

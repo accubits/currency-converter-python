@@ -2,7 +2,7 @@
    ![alt text <>](https://accubits-image-assets.s3-ap-southeast-1.amazonaws.com/currency-converter/currency.png "")
 
 
-# Currency Converter
+# Forex Converter
 [](https://accubits-image-assets.s3-ap-southeast-1.amazonaws.com/currency-converter/currency.png)
 
 
@@ -18,13 +18,13 @@ Install the package with:
  ## USAGE
 
 ````python
-from currency-converter import get_currencies,convert
+from forex-converter import get_currencies,convert
 ````
 
  #### Get Available currencies
 
 ````python
-from currency-converter import get_currencies
+from forex-converter import get_currencies
 
 print(get_currencies)
 
@@ -36,7 +36,7 @@ print(get_currencies)
 Example : Convert 200 USD to INR
 
 ````python
-from currency-converter import convert
+from forex-converter import convert
 
 print(convert('USD','INR',200))
 

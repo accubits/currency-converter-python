@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name='currency-converter',
-    packages=['currency-converter'],
+    name='forex-converter',
+    packages=['forex-converter'],
     version='0.1',
     license='MIT',
     description='A simple python package for currency conversion',
@@ -10,7 +10,7 @@ setup(
     author_email='jithinvg@accubits.com, aj@accubits.com',  # Type in your E-Mail
     url='https://github.com/accubits/currency-converter-python.git',  # Provide either the link to your github or to your website
     download_url='https://github.com/accubits/currency-converter-python/archive/0.1.tar.gz',  # I explain this later on
-    keywords=['currency', 'currency-converter', 'currency converter', ' converter currency'],  # Keywords that define your package best
+    keywords=['currency', 'forex-converter', 'currency converter', ' converter currency','forex'],  # Keywords that define your package best
     install_requires=[
         'requests'
     ],

@@ -3,7 +3,8 @@ from os import path
 
 this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
+    readme = f.read()
+    print(readme)
 
 setup(
     name='forex-converter',
@@ -11,6 +12,8 @@ setup(
     version='0.3',
     license='MIT',
     description='A simple python package for currency conversion',
+    long_description_content_type='text/markdown',
+    long_description=readme,
     author='Jithin VG',
     author_email='jithinvg@accubits.com, aj@accubits.com',
     url='https://github.com/accubits/currency-converter-python.git',
@@ -28,8 +31,8 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
-    ],
-    long_description=long_description,
-    long_description_content_type='text/markdown',
+    ]
+
+
 
 )

@@ -27,7 +27,7 @@ class ABCurrencyConv:
 
         if data is not False:
             if fromCurrency in data and toCurrency in data:
-                return (data[toCurrency] / data[fromCurrency]) * value
+                return (data[toCurrency] / data[fromCurrency]) * float(value)
 
             else:
                 # doesnt support this currency

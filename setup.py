@@ -2,7 +2,7 @@ from distutils.core import setup
 from os import path
 
 this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
     readme = f.read()
     print(readme)
 
@@ -12,7 +12,7 @@ setup(
     version='0.3',
     license='MIT',
     description='A simple python package for currency conversion',
-    long_description_content_type='text/markdown',
+    long_description_content_type='text/x-rst',
     long_description=readme,
     author='Jithin VG',
     author_email='jithinvg@accubits.com, aj@accubits.com',

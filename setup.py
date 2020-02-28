@@ -8,8 +8,7 @@ with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='forex-converter',
-    packages=['forex-converter'],
-    version='0.3',
+    version='0.5',
     license='MIT',
     description='A simple python package for currency conversion',
     long_description_content_type='text/x-rst',
@@ -17,7 +16,7 @@ setup(
     author='Jithin VG',
     author_email='jithinvg@accubits.com, aj@accubits.com',
     url='https://github.com/accubits/currency-converter-python.git',
-    download_url='https://github.com/accubits/currency-converter-python/archive/0.3.tar.gz',
+    download_url='https://github.com/accubits/currency-converter-python/archive/0.3.1.tar.gz',
     keywords=['currency', 'forex-converter', 'currency converter', ' converter currency', 'forex'],
     install_requires=[
         'requests'
@@ -31,8 +30,11 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
-    ]
-
-
+    ],
+    package_dir={
+        "forex-converter": "forex-converter",
+        "forex-converter.classes": "forex-converter/classes",
+    },
+    packages=["forex-converter", "forex-converter/classes"]
 
 )

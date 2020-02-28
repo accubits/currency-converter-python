@@ -4,3 +4,5 @@ setup.py
 forex-converter/__init__.py
 forex-converter/config.py
 forex-converter/index.py
+forex-converter/classes/__init__.py
+forex-converter/classes/currency_converter.py
